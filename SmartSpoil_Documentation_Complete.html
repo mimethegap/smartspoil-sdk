@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartSpoil Documentation Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; line-height: 1.6; }
+    h1, h2, h3 { color: #2c3e50; }
+    section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    code, pre { background: #f0f0f0; padding: 10px; display: block; overflow-x: auto; white-space: pre-wrap; border-left: 4px solid #3498db; }
+    a.download { display: inline-block; margin: 10px 0; padding: 10px 15px; background: #3498db; color: #fff; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+<h1>📘 SmartSpoil: End-to-End Smart Packaging System</h1>
+<section><h2>🔍 Overview</h2>
+<p>SmartSpoil is a full-stack platform for detecting, logging, and mitigating food spoilage using embedded sensors, AI, and biodegradable materials. It includes ESP32-based firmware, BLE/NFC communication, blockchain logging, and cloud dashboards.</p></section>
+<section><h2>⚙️ Hardware & Firmware</h2>
+<ul>
+  <li>ESP32 microcontroller with OTA update support</li>
+  <li>Gas sensors (NH₃, H₂S, VOCs) + DHT22 (Temp/Humidity)</li>
+  <li>BLE/NFC output, RGB LED freshness indicators</li>
+  <li>Smart recalibration algorithm + secure OTA update endpoint</li>
+</ul>
+<a class="download" href="SmartSpoil_ESP32_OTA_Firmware.ino" download>Download Firmware</a>
+</section>
+<section><h2>📲 Web & Mobile Interface</h2>
+<ul>
+  <li>React Native mobile app with BLE/NFC scanner</li>
+  <li>Web dashboard (React) + Node.js backend + WebSocket stream</li>
+  <li>Real-time freshness metrics & spoilage alert system</li>
+  <li>BLE auto-discovery and simulation fallback</li>
+</ul>
+<a class="download" href="SmartSpoil_SDK.zip" download>Download SDK</a>
+</section>
+<section><h2>🔗 Blockchain Logging</h2>
+<p>SmartSpoil freshness logs are signed and pushed to Ethereum-compatible blockchains using Web3.js. This ensures a tamper-proof audit trail for regulatory and recall compliance.</p>
+<a class="download" href="SmartSpoil_Blockchain_Logger.js" download>Download Logger Script</a>
+</section>
+<section><h2>🛠️ GUI Deployer</h2>
+<ul>
+  <li>Electron-based desktop app</li>
+  <li>Deploy to GitHub + Netlify in one click</li>
+  <li>Live console log output + access token storage</li>
+</ul>
+<a class="download" href="SmartSpoil_GUI_Deployer_Full.zip" download>Download GUI Deployer</a>
+</section>
+<section><h2>📚 Documentation & Business Plan</h2>
+<ul>
+  <li><a href="SmartSpoil_Commercial_Guide.pdf" class="download">Commercial Strategy Guide (PDF)</a></li>
+  <li><a href="SmartSpoil_Patent_Portfolio.md" class="download">Patent Portfolio (Markdown)</a></li>
+  <li><a href="SmartSpoil_Roadmap_Graphic.png" class="download">Roadmap Graphic</a></li>
+  <li><a href="SmartSpoil_Investor_Deck.pptx" class="download">Investor Pitch Deck</a></li>
+</ul>
+</section>
+<section><h2>🌍 Deployment & Hosting</h2>
+<ul>
+  <li>Netlify integration with `netlify.toml`</li>
+  <li>GitHub Actions workflow for CI/CD</li>
+  <li>Site manifest + custom domain support</li>
+</ul>
+<a class="download" href="netlify.toml" download>Netlify Config</a>
+</section>
+<section><h2>🔐 Legal, License, and Source</h2>
+<ul>
+  <li><a href="LICENSE" class="download">MIT License</a></li>
+  <li><a href=".gitignore" class="download">.gitignore Template</a></li>
+  <li><a href="README.md" class="download">README.md (GitHub Ready)</a></li>
+</ul>
+</section>
+</body>
+</html>
