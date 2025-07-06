@@ -1,0 +1,18 @@
+{
+  "name": "smartspoil-sdk",
+  "version": "1.0.0",
+  "description": "SmartSpoil - Biodegradable smart packaging platform with sensor hardware, AI, and blockchain integration",
+  "main": "SmartSpoil_Blockchain_Logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "web3": "^4.16.0"
+  }
+}
